@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 644869585418887241}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.85586, y: 0.85586, z: 0.85586}
   m_Children:
   - {fileID: 1115115921110674725}
   - {fileID: 4008464142964744179}
@@ -184,10 +184,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6298294893460960255, guid: ef8e21da012db6b468b36bc34be3c79d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 69
+      objectReference: {fileID: 0}
+    - target: {fileID: -2286930378045590720, guid: ef8e21da012db6b468b36bc34be3c79d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fcd4d6a504bc12e448bf86e871bd3021, type: 2}
     - target: {fileID: 919132149155446097, guid: ef8e21da012db6b468b36bc34be3c79d,
         type: 3}
       propertyPath: m_Name
       value: Mesh_CashRegister
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ef8e21da012db6b468b36bc34be3c79d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 69
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef8e21da012db6b468b36bc34be3c79d, type: 3}

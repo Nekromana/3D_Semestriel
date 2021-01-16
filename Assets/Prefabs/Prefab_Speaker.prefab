@@ -99,10 +99,20 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 93cefc37c4d6be24295548d62e349298, type: 2}
+    - target: {fileID: 197215178012472176, guid: f2916c6fe0613e447bd9a1a8a1cd6adb,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 69
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f2916c6fe0613e447bd9a1a8a1cd6adb,
         type: 3}
       propertyPath: m_Name
       value: Mesh_Speaker
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f2916c6fe0613e447bd9a1a8a1cd6adb,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 69
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2916c6fe0613e447bd9a1a8a1cd6adb, type: 3}
