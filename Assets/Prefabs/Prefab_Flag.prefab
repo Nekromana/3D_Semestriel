@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 5552681888388469579}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.0474176, y: 1.0351, z: 1.0351}
   m_Children:
   - {fileID: 5369891365649336820}
   - {fileID: 3885604212420564048}
@@ -109,10 +109,20 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 92baa9cca615e734485be03c31d09fb2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0516e240a93f8714fad2f6df375351a1, type: 2}
     - target: {fileID: 919132149155446097, guid: 92baa9cca615e734485be03c31d09fb2,
         type: 3}
       propertyPath: m_Name
       value: Mesh_Flag
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 92baa9cca615e734485be03c31d09fb2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 69
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 92baa9cca615e734485be03c31d09fb2, type: 3}
@@ -189,6 +199,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 131d3c348f782854dbfff484c7f4b5a0, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 0f9cdf4eae9f93c44bb7f412e18f37be,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0f9cdf4eae9f93c44bb7f412e18f37be,
         type: 3}
       propertyPath: m_Name

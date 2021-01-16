@@ -95,11 +95,36 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2532056797142835531, guid: 1331e0b17dc0fd348a67e988a53af5b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 69
+      objectReference: {fileID: 0}
+    - target: {fileID: -1781164449894584147, guid: 1331e0b17dc0fd348a67e988a53af5b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 69
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1331e0b17dc0fd348a67e988a53af5b5,
         type: 3}
       propertyPath: m_Name
       value: Mesh_ExitDoor
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1331e0b17dc0fd348a67e988a53af5b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 69
+      objectReference: {fileID: 0}
+    - target: {fileID: 1848418935359167333, guid: 1331e0b17dc0fd348a67e988a53af5b5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 69
+      objectReference: {fileID: 0}
+    - target: {fileID: 6425714765343027346, guid: 1331e0b17dc0fd348a67e988a53af5b5,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 93cefc37c4d6be24295548d62e349298, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1331e0b17dc0fd348a67e988a53af5b5, type: 3}
 --- !u!4 &3797167806984237848 stripped
@@ -185,11 +210,21 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 131d3c348f782854dbfff484c7f4b5a0, type: 2}
+    - target: {fileID: -4714081580142128495, guid: 65a41fa0d7068b046ad54250cde63ef4,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: -1540308332987785941, guid: 65a41fa0d7068b046ad54250cde63ef4,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: da48c393044483146b535aa84892b927, type: 2}
+    - target: {fileID: -1540308332987785941, guid: 65a41fa0d7068b046ad54250cde63ef4,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 65a41fa0d7068b046ad54250cde63ef4,
         type: 3}
       propertyPath: m_Name
@@ -210,6 +245,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 131d3c348f782854dbfff484c7f4b5a0, type: 2}
+    - target: {fileID: 3013534750047957386, guid: 65a41fa0d7068b046ad54250cde63ef4,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 8796791010865034628, guid: 65a41fa0d7068b046ad54250cde63ef4,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -290,6 +330,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mesh_ExitSign
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c64c33769886c9947846c770e4f20f7b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 69
+      objectReference: {fileID: 0}
+    - target: {fileID: 1302188274768088532, guid: c64c33769886c9947846c770e4f20f7b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 69
+      objectReference: {fileID: 0}
+    - target: {fileID: 5692157859186661743, guid: c64c33769886c9947846c770e4f20f7b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1e7bef78e4018194a837f06323b48647, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c64c33769886c9947846c770e4f20f7b, type: 3}
 --- !u!4 &8082619904252738227 stripped

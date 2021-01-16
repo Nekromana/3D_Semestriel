@@ -282,7 +282,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 131d3c348f782854dbfff484c7f4b5a0, type: 2}
+      objectReference: {fileID: 2100000, guid: 70de8dd6ef26eac41a7136ea3f32154d, type: 2}
     - target: {fileID: 919132149155446097, guid: 2509aa41954a0984b99ece26fed41bad,
         type: 3}
       propertyPath: m_Name
@@ -467,7 +467,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 131d3c348f782854dbfff484c7f4b5a0, type: 2}
+      objectReference: {fileID: 2100000, guid: 70de8dd6ef26eac41a7136ea3f32154d, type: 2}
     - target: {fileID: 919132149155446097, guid: 1965c23d9ad103745af4989efeae250c,
         type: 3}
       propertyPath: m_Name
@@ -557,6 +557,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mesh_WallBack
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd38a97c75b30504db4ed6eb2545929e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 69
+      objectReference: {fileID: 0}
+    - target: {fileID: 6933460506809567734, guid: dd38a97c75b30504db4ed6eb2545929e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 69
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd38a97c75b30504db4ed6eb2545929e, type: 3}
