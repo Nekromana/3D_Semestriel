@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Mat_AtlasAlpha 1
+  m_Name: Mat_AtlasAlpha 2
   m_Shader: {fileID: -6465566751694194690, guid: 18b72cedc4da9c64aad451108d24fc6a,
     type: 3}
   m_ShaderKeywords: _NORMALMAP_TANGENT_SPACE
@@ -40,11 +40,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_47AEA256:
-        m_Texture: {fileID: 2800000, guid: 4561cd59ec467b9419aa1ce2483b7613, type: 3}
+        m_Texture: {fileID: 2800000, guid: a9353f7043c7ff24eac656ede5505160, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_E64DE0C:
-        m_Texture: {fileID: 2800000, guid: d9790eca027e62a4c9155fa6a0f298ac, type: 3}
+        m_Texture: {fileID: 2800000, guid: f8e35947ab2c33e49a1b1fce1b935280, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _AnisotropyMap:
