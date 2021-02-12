@@ -171,19 +171,19 @@ MonoBehaviour:
   active: 1
   m_AdvancedMode: 0
   quality:
-    m_OverrideState: 0
-    m_Value: 2
+    m_OverrideState: 1
+    m_Value: 1
   enable:
     m_OverrideState: 1
     m_Value: 1
   length:
     m_OverrideState: 1
-    m_Value: 0.156
+    m_Value: 0.387
     min: 0
     max: 1
   opacity:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0.906
     min: 0
     max: 1
   distanceScaleFactor:
@@ -232,7 +232,7 @@ MonoBehaviour:
     m_Value: {x: 0.5, y: 0.5}
   intensity:
     m_OverrideState: 1
-    m_Value: 0.453
+    m_Value: 0.5
     min: 0
     max: 1
   smoothness:
@@ -375,6 +375,36 @@ MonoBehaviour:
   cascadeShadowBorder3:
     m_OverrideState: 1
     m_Value: 0
+--- !u!114 &-84225090254301443
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a6b00fcf518bb94a90b408492e07b44, type: 3}
+  m_Name: FilmGrain
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  type:
+    m_OverrideState: 1
+    m_Value: 0
+  intensity:
+    m_OverrideState: 1
+    m_Value: 0.694
+    min: 0
+    max: 1
+  response:
+    m_OverrideState: 0
+    m_Value: 0.8
+    min: 0
+    max: 1
+  texture:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -398,6 +428,7 @@ MonoBehaviour:
   - {fileID: -7050927400015654021}
   - {fileID: -4952982164100768823}
   - {fileID: 598815205759569841}
+  - {fileID: -84225090254301443}
 --- !u!114 &598815205759569841
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -414,10 +445,10 @@ MonoBehaviour:
   m_AdvancedMode: 0
   postExposure:
     m_OverrideState: 1
-    m_Value: -0.15
+    m_Value: -0.3
   contrast:
     m_OverrideState: 1
-    m_Value: 8
+    m_Value: -6
     min: -100
     max: 100
   colorFilter:
@@ -427,13 +458,13 @@ MonoBehaviour:
     showAlpha: 0
     showEyeDropper: 1
   hueShift:
-    m_OverrideState: 0
-    m_Value: -1
+    m_OverrideState: 1
+    m_Value: -0.5
     min: -180
     max: 180
   saturation:
     m_OverrideState: 1
-    m_Value: 2
+    m_Value: -10
     min: -100
     max: 100
 --- !u!114 &5984269552388143983
